@@ -325,7 +325,7 @@ while True:
         continue
 
     elif menu_choice == "4":  # End the program
-        # IOProcessor.output_messages("Program Ended")
+        IO.output_messages("Program Ended")
         break  # out of the while loop
 
     else:
